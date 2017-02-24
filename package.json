@@ -1,0 +1,35 @@
+{
+  "name": "tmli.courier.webservice",
+  "version": "1.0.0",
+  "description": "TMLI web service for courier mopile apps",
+  "main": "index.js",
+  "scripts": {
+    "rimraf": "rimraf",
+    "webpack": "webpack",
+    "start": "node ./index.js",
+    "build": "webpack --progress ",
+    "prebuild": "npm run rimraf -- dist"
+  },
+  "keywords": [
+    "tmli",
+    "courier",
+    "schedule"
+  ],
+  "author": "alifatic",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "colors": "^1.1.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "multer": "^1.2.0",
+    "promise": "^7.1.1",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babili-webpack-plugin": "0.0.9",
+    "copy-webpack-plugin": "^4.0.1",
+    "rimraf": "^2.6.0",
+    "webpack": "^2.2.1"
+  }
+}

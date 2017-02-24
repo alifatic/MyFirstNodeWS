@@ -1,0 +1,2 @@
+{"user": "CTIDialer","password": "Dialer.","server": "127.0.0.1","database": "TMLICourier_Nov2016","AttachmentFolder": "C:\\WebService\\Attachment","pool": { "max": 10,"min": 0,"idleTimeoutMillis": 30000}
+}
