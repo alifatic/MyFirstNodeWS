@@ -21,7 +21,7 @@ function getConfig(){
 
 function connectDB(){    
     getConfig().then(function(res,err){
-        cp = new sql.Connection(res);
+        cp = new sql.ConnectionPool(res);
         tls.logger.info('Connecting to DB : ' + res.database );
         cp.connect().then(()=> {
             tls.logger.info('Connected to DB : ' + res.database );
